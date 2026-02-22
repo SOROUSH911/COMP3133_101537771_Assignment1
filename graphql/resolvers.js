@@ -122,7 +122,6 @@ const resolvers = {
         try {
           employeePhoto = await uploadImage(args.employee_photo);
         } catch (error) {
-          console.error('Photo upload failed:', error.message);
           // Store the URL/path as-is if Cloudinary upload fails
           employeePhoto = args.employee_photo;
         }
@@ -165,7 +164,6 @@ const resolvers = {
         try {
           updates.employee_photo = await uploadImage(updates.employee_photo);
         } catch (error) {
-          console.error('Photo upload failed:', error.message);
           // Keep the provided URL/path as-is
         }
       }

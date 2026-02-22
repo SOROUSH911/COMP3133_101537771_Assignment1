@@ -1,0 +1,32 @@
+{
+  "name": "comp3133_101537771_assignment1",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "graphql",
+    "employee-management",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "Soroush Salari - 101537771",
+  "license": "ISC",
+  "description": "Employee Management System - COMP3133 Assignment 1 - GraphQL API with NodeJS, Express, and MongoDB",
+  "dependencies": {
+    "@apollo/server": "^4.13.0",
+    "bcryptjs": "^3.0.3",
+    "cloudinary": "^2.9.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.1",
+    "graphql": "^16.12.0",
+    "graphql-tag": "^2.12.6",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.1"
+  }
+}
